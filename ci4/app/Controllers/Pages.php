@@ -18,10 +18,13 @@ class Pages extends BaseController
             throw new PageNotFoundException($page);
         }
 
-        $data['title'] = ucfirst($page); // Capitalize the first letter
 
-        return view('templates/header', $data)
-            . view('pages/' . $page)
-            . view('templates/footer');
+        echo view('pages/' . $page);
+    }
+	
+	public function mystory()
+    {
+        // Load the new_page.php file from the pages folder
+        return view('pages/mystory');
     }
 }

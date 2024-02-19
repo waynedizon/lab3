@@ -1,0 +1,514 @@
+	h1 {
+		color: #D85375;
+		font-family: Arial;
+		font-size:20px;
+		padding-top: 200px;
+		padding-right: 30px;
+		padding-bottom: 50px;
+		padding-left: 500px;
+
+
+
+	}
+
+	h2 {
+		color: white;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 2px;
+		top: 425px;
+		right: 520px;
+		position: absolute;
+		z-index: 4;
+	}
+
+
+
+	h3 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 2px;
+		top: 985px;
+		left: 485px;
+		position: absolute;
+		z-index: 4;
+	}
+	
+	h4 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 2px;
+		line-height: 2.0;
+		top: 955px;
+		right: 570px;
+		position: absolute;
+		z-index: 4;
+	}
+
+	h5 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 2px;
+		line-height: 2.0;
+		top: 984px;
+		right: 528px;
+		position: absolute;
+		z-index: 4;	
+	}
+	
+	#header {
+		position: absolute;
+		z-index: 2;
+		width: 100%;
+		top: 0px;
+	}
+
+	#collage {
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		top: 0px;
+	}
+	
+	#tagline {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 45px;
+		right: 90px;
+	}
+	
+	#heythere {
+		position: absolute;
+		z-index:2;
+		width: 1080px;
+		top: 780px;	
+		left: 230px;
+	}
+	
+	#footer {
+		position: relative;
+		z-index:2;
+		width: 100%;
+		top: 180px;
+
+	}
+	
+	#footer1 {
+		position: relative;
+		z-index:2;
+		width: 100%;
+		top: 1450px;
+
+	}
+	
+	#facebook {
+		display: flex;
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		border-radius: 4px;
+		top: 1050px;
+		left: 485px;
+		width: 25px;
+	}
+	
+	#facebook1 {
+		display: flex;
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		border-radius: 4px;
+		top: 2321px;
+		left: 485px;
+		width: 25px;
+	}
+	
+	#linkedin {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 1041px;
+		left: 510px;
+		width: 43px;	
+	}
+	
+	#linkedin1 {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 2312px;
+		left: 510px;
+		width: 43px;	
+	}
+	
+	#heartfoot {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 995px;
+		left: 730px;
+		width: 70px;
+	}
+	
+	#heartfoot1 {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 2264px;
+		left: 730px;
+		width: 70px;
+	}
+	
+	#instagram {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 868px;
+		right: 525px;
+		width: 35px;
+	}
+	
+	#instagram1 {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 2137px;
+		right: 525px;
+		width: 35px;
+	}
+	
+	#textfooter {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 2px;
+		top: 2255px;
+		left: 485px;
+		position: absolute;
+		z-index: 4;	
+	}
+	
+	#textfooter2 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		letter-spacing: 2px;
+		line-height: 2.0;
+		top: 2230px;
+		right: 570px;
+		position: absolute;
+		z-index: 4;	
+	}
+	
+	#mystory1 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 2px;
+		line-height: 2.0;
+		top: 2265px;
+		right: 528px;
+		position: absolute;
+		z-index: 4;		
+	}
+	
+	.city {
+	  background-color: #f894ae;
+	  color: black;
+	  padding-top: 2px;
+	  padding-right: 2px;
+	  padding-bottom: 2px;
+	  padding-left: 2px;
+	}
+	.note {
+	  color: DeepPink;
+	}
+	
+	.center {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	
+	#navbar {
+		position: relative;
+		z-index: 5;	
+	}
+
+	
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: #FF7A9C;
+	  font-family: Arial;
+	  font-weight: 550;
+      font-size: 14px;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  margin-top: 85px;
+	  text-align: center;
+	  padding: 14px 5px;
+	  text-decoration: none;
+	}
+
+	li a:hover:not(.active) {
+	  color: #D85375;
+
+	}
+
+	.active {
+	  color:#FF7A9C;
+	  margin-left: 200px;
+	}
+	
+	.navi {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+	
+	.navi1 {
+		margin-right: 150px;
+	}
+	
+	body {
+		background-color: #FF7A9C;
+	    margin: 0px;
+		padding: 0px;
+	}
+	
+	#storytag {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: center;
+		letter-spacing: 2px;
+		top: 470px;
+		right: 620px;
+		position: absolute;
+		z-index: 4;	
+	}
+	
+	#story1 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: center;
+		text-justify: inter-character;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1000px;
+		left: 310px;
+		position: absolute;
+		z-index: 5;		
+		
+	}
+	
+	#funfact {
+		position: absolute;
+		z-index:2;
+		width: 1080px;
+		top: 1150px;
+		left: 210px;
+	}
+	
+	#funfact1 {
+		position: absolute;
+		z-index:2;
+		width: 1080px;
+		top: 1480px;
+		left: 210px;
+	}
+	
+	#scholar {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1630px;
+		left: 300px;
+		position: absolute;
+		z-index: 5;	
+	}
+	
+	#big3 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1930px;
+		left: 300px;
+		position: absolute;
+		z-index: 5;			
+	}
+	
+	#gamer {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1630px;
+		right: 285px;
+		position: absolute;
+		z-index: 5;			
+	}
+	
+	#risk {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1810px;
+		right: 360px;
+		position: absolute;
+		z-index: 5;			
+	}
+	
+	#bgc{
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: left;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		top: 1963px;
+		right: 285px;
+		position: absolute;
+		z-index: 5;			
+	}
+	
+	
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		top: 1054px;
+		right: 525px;
+		position: absolute;
+		z-index: 4;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		color: #FF7A9C;
+	  
+	}
+
+	.tooltiptext {
+	  visibility: hidden;
+	  width: 300px;
+	  background-color: #ffc0d5;
+	
+	  font-family: Arial;
+	  font-weight: normal;
+	  font-size: 14px;
+	  color: #D85375;
+	  text-align: center;
+	  border-radius: 4px;
+	  padding: 8px 0;
+
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;
+	  top: -15px;
+	  left: 105%;
+	}
+
+	.tooltip:hover .tooltiptext {
+	  visibility: visible;
+	}
+	
+		.tooltip1 {
+		position: relative;
+		display: inline-block;
+		top: 2325px;
+		right: 525px;
+		position: absolute;
+		z-index: 4;
+		font-family: Arial;
+		font-weight: 550;
+		font-size: 16px;
+		text-align: left;
+		color: #FF7A9C;
+	  
+	}
+
+	.tooltiptext1 {
+	  visibility: hidden;
+	  width: 300px;
+	  background-color: #ffc0d5;
+	  font-family: Arial;
+	  font-weight: normal;
+	  font-size: 14px;
+	  color: #D85375;
+	  text-align: center;
+	  border-radius: 4px;
+	  padding: 8px 0;
+
+	  /* Position the tooltip */
+	  position: absolute;
+	  z-index: 1;
+	  top: -15px;
+	  left: 105%;
+	}
+
+	.tooltip1:hover .tooltiptext1 {
+	  visibility: visible;
+	}
+	
+	/*java moving object*/
+	
+	#container {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	background: yellow;
+	}
+	#animate {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	background-color: red;
+	}
