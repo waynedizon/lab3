@@ -11,10 +11,10 @@
     <body style="background-color:#FFEFF7">
 	<div id="navbar">
 	<ul>
-	  <li style="float:right"><a class="navi, navi1" href="portfolio.php">Portfolio</a></li>
+	  <li style="float:right"><a class="navi, navi1" href="portfolio">Portfolio</a></li>
 	  <li style="float:right"><a class="navi" href="mystory">My Story</a></li>
-	  <li style="float:right"><a class="navi" href="home.php">Home</a></li>
-	  <li><a class="active" href="index.html">WanderWithWayne.com</a></li>
+	  <li style="float:right"><a class="navi" href="home">Home</a></li>
+	  <li><a class="active" href="home">WanderWithWayne.com</a></li>
 	</ul>
 	</div>
 	
@@ -79,9 +79,9 @@
 	
 	<p id="textfooter"> Have a question or <br> wanna collab? </p>
 	
-	<a href="index.html"><p id="textfooter2">HOME</p></a>
+	<a href="home"><p id="textfooter2">HOME</p></a>
 	
-	<a href="mystory.html"><p id="mystory1">MY STORY</p></a>
+	<a href="mystory"><p id="mystory1">MY STORY</p></a>
 	
 	<div class="tooltip1">RESOURCES
 	<span class="tooltiptext1"> Source Code: W3 Schools, Khan Academy<br> Pictures: Pinterest, Canva</span>

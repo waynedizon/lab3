@@ -12,10 +12,10 @@
 	
 	<div id="navbar">
 	<ul>
-	  <li style="float:right"><a class="navi, navi1" href="portfolio.html">Portfolio</a></li>
+	  <li style="float:right"><a class="navi, navi1" href="portfolio">Portfolio</a></li>
 	  <li style="float:right"><a class="navi" href="mystory">My Story</a></li>
-	  <li style="float:right"><a class="navi" href="index.php">Home</a></li>
-	  <li><a class="active" href="index.html">WanderWithWayne.com</a></li>
+	  <li style="float:right"><a class="navi" href="home">Home</a></li>
+	  <li><a class="active" href="home">WanderWithWayne.com</a></li>
 	</ul>
 	</div>
 	
@@ -40,8 +40,8 @@
 	
 	<h3> Have a question or <br> wanna collab? </h3>
 	
-	<a href="index.html"><h4>HOME</h4></a>
-	<a href="mystory.html"><h5>MY STORY</h5></a>
+	<a href="home"><h4>HOME</h4></a>
+	<a href="mystory"><h5>MY STORY</h5></a>
 	
 	<div class="tooltip">RESOURCES
 	<span class="tooltiptext"> Source Code: W3 Schools, Khan Academy<br> Pictures: Pinterest, Canva</span>

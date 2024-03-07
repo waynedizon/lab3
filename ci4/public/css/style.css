@@ -96,6 +96,15 @@
 		top: 780px;	
 		left: 230px;
 	}
+
+	#heythere1 {
+		position: absolute;
+		z-index: 2;
+		width: 1280px;
+		top: 2137px;
+		right: 525px;
+		width: 35px;
+	}
 	
 	#footer {
 		position: relative;
@@ -112,6 +121,8 @@
 		top: 1450px;
 
 	}
+	
+
 	
 	#facebook {
 		display: flex;
@@ -317,6 +328,22 @@
 		position: absolute;
 		z-index: 4;	
 	}
+
+	#storytag1 {
+		color: #FF7A9C;
+		font-family: Arial;
+		font-weight: normal;
+		font-size: 16px;
+		text-align: center;
+		text-justify: inter-character;
+		line-height: 2.0;
+		letter-spacing: 2px;
+		bottom: 1000px;
+		left: 310px;
+		position: relative;
+		z-index: 5;		
+	}	
+
 	
 	#story1 {
 		color: #FF7A9C;
@@ -506,9 +533,19 @@
 	position: relative;
 	background: yellow;
 	}
+	
 	#animate {
 	width: 10px;
 	height: 10px;
 	position: absolute;
 	background-color: red;
+	}
+	
+	
+	#starbs {
+		position: center;
+		z-index:6;
+		width: 100px;
+		top: 1500px;	
+		left: 230px;
 	}
