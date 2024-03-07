@@ -11,7 +11,7 @@
 			<br>
             <?= esc($guest['website']) ?>
             <br>
-            <?= esc($guest['comment']) ?>
+            <?= esc($guest['Comment']) ?>
 			<br>
             <?= esc($guest['gender']) ?>
 			<br>
