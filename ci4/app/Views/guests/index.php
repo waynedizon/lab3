@@ -13,7 +13,7 @@
             <br>
             <?= esc($guest['Comment']) ?>
 			<br>
-            <?= esc($guest['gender']) ?>
+            <?= esc($guest['Gender']) ?>
 			<br>
         </div>
         <p><a href="./guests/<?= esc($guest['email'], 'url') ?>">View Guest detail</a></p>
