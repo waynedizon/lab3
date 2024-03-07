@@ -4,12 +4,12 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class NewsModel extends Model
+class GuestsModel extends Model
 {
     protected $table = 'myguests';
-	
-	
-	public function getGuest($email = false)
+    protected $allowedFields = ['name', 'email', 'website', 'comment', 'gender'];
+
+    public function getGuests($email = false)
     {
         if ($email === false) {
             return $this->findAll();

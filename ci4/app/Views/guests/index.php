@@ -1,15 +1,22 @@
 <h2><?= esc($title) ?></h2>
 
-<?php if (! empty($guest) && is_array($guest)): ?>
+<?php if (! empty($guests) && is_array($guests)): ?>
 
-    <?php foreach ($guest as $guest_item): ?>
+    <?php foreach ($guests as $guest): ?>
 
-        <h3><?= esc($guest_item['name']) ?></h3>
+        <h3><?= esc($guest['name']) ?></h3>
 
         <div class="main">
-            <?= esc($guest_item['name']) ?>
+            <?= esc($guest['email']) ?>
+			<br>
+            <?= esc($guest['website']) ?>
+            <br>
+            <?= esc($guest['comment']) ?>
+			<br>
+            <?= esc($guest['gender']) ?>
+			<br>
         </div>
-        <p><a href="/guest/<?= esc($guest_item['email'], 'url') ?>">View Guest detail</a></p>
+        <p><a href="./guests/<?= esc($guest['email'], 'url') ?>">View Guest detail</a></p>
 
     <?php endforeach ?>
 
