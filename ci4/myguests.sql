@@ -32,7 +32,7 @@ CREATE TABLE `myguests` (
   `name` varchar(30) NOT NULL,
   `email` varchar(50) NOT NULL,
   `website` varchar(50) DEFAULT NULL,
-  `Comment` text NOT NULL,
+  `comment` text NOT NULL,
   `Gender` enum('female','male','other') NOT NULL,
   `reg_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -41,9 +41,9 @@ CREATE TABLE `myguests` (
 -- Dumping data for table `myguests`
 --
 
-INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `Comment`, `Gender`, `reg_date`) VALUES
+INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `comment`, `Gender`, `reg_date`) VALUES
 (1, 'John', 'Doe', 'john@example.com', '', '', '2024-01-30 00:38:16');
---INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `Comment`, `Gender`, `reg_date`) VALUES(1, 'John', 'Doe', 'john@gmail.com', 'hii', 'male', '2024-01-29 16:38:16');
+--INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `comment`, `Gender`, `reg_date`) VALUES(1, 'John', 'Doe', 'john@gmail.com', 'hii', 'male', '2024-01-29 16:38:16');
 
 --
 -- Indexes for dumped tables
