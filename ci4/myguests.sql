@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `myguests`
 --
 
-CREATE TABLE `wddizon_myguests` (
+CREATE TABLE `myguests` (
   `id` int(6) UNSIGNED NOT NULL,
   `name` varchar(30) NOT NULL,
   `email` varchar(50) NOT NULL,
@@ -41,8 +41,9 @@ CREATE TABLE `wddizon_myguests` (
 -- Dumping data for table `myguests`
 --
 
-INSERT INTO `wddizon_myguests` (`id`, `name`, `email`, `website`, `Comment`, `Gender`, `reg_date`) VALUES
+INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `Comment`, `Gender`, `reg_date`) VALUES
 (1, 'John', 'Doe', 'john@example.com', '', '', '2024-01-30 00:38:16');
+--INSERT INTO `myguests` (`id`, `name`, `email`, `website`, `Comment`, `Gender`, `reg_date`) VALUES(1, 'John', 'Doe', 'john@gmail.com', 'hii', 'male', '2024-01-29 16:38:16');
 
 --
 -- Indexes for dumped tables
@@ -51,7 +52,7 @@ INSERT INTO `wddizon_myguests` (`id`, `name`, `email`, `website`, `Comment`, `Ge
 --
 -- Indexes for table `myguests`
 --
-ALTER TABLE `wddizon_myguests`
+ALTER TABLE `myguests`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -61,7 +62,7 @@ ALTER TABLE `wddizon_myguests`
 --
 -- AUTO_INCREMENT for table `myguests`
 --
-ALTER TABLE `wddizon_myguests`
+ALTER TABLE `myguests`
   MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
