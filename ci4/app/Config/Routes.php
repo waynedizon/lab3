@@ -20,8 +20,7 @@ $routes->get('guests/(:segment)', [Guests::class, 'show']);
 
 $routes->get('news', [News::class, 'index']); 
 $routes->get('news/new', [News::class, 'new']); // Add this line
-$routes->post('news', [News::class, 'create']); // Add this line   
-$routes->post('guests', [Guests::class, 'create']);       
+$routes->post('news', [News::class, 'create']); // Add this line     
 $routes->get('news/(:segment)', [News::class, 'show']); 
 
 $routes->get('/', 'Home::index');
