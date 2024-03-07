@@ -11,7 +11,6 @@ class Guests extends BaseController
     {
         $model = model(GuestsModel::class);
 
-        $data['guest'] = $model->getGuest();
         $data = [
             'guest'  => $model->getGuest(),
             'title' => 'Guest List',
